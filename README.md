@@ -1,34 +1,25 @@
 <h1>Bugs encontrados :<h1>
 <dl>
-<dt>Html</dt>
-<dd> Html Basico</dd>
-<dd> Html Avançado</dd>
-<dt> PHP</dt>
-<dd> PHP Básico</dd>
-<dd> PHP Intermediário</dd>
-<dd> PHP Avançado</dd>
+<dt>valor da simulação que deve ser igual ou maior que R$ 1.000 e menor ou igual que R$ 40.000</dt>
+  <dd>bug em regra que limita simulações com valores iguais ou menores que R$ 1000</dd>
+  
+<dt> titulo</dt>
+  <dd> topico</dd>
+  <dd> topico</dd>
+  <dd> topico</dd>
 </dl>
 
 <h1>Testes Executados :<h1>
-
-<dl>
-<dt>Html</dt>
-<dd> Html Basico</dd>
-<dd> Html Avançado</dd>
-<dt> PHP</dt>
-<dd> PHP Básico</dd>
-<dd> PHP Intermediário</dd>
-<dd> PHP Avançado</dd>
+<dt> titulo</dt>
+  <dd> topico</dd>
+  <dd> topico</dd>
+  <dd> topico</dd>
 </dl>
 
 <h1>Como rodar testes automatizados :<h1>
 
-<dl>
-<dt>Html</dt>
-<dd> Html Basico</dd>
-<dd> Html Avançado</dd>
-<dt> PHP</dt>
-<dd> PHP Básico</dd>
-<dd> PHP Intermediário</dd>
-<dd> PHP Avançado</dd>
+<dt> titulo</dt>
+  <dd> topico</dd>
+  <dd> topico</dd>
+  <dd> topico</dd>
 </dl>
