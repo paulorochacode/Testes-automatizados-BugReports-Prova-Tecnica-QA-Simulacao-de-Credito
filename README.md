@@ -2,9 +2,12 @@
  
 <a>Valor da simulação que deve ser igual ou maior que R$ 1.000 e menor ou igual que R$ 40.000 :</br>
  <ul>
-  <li>Bug em regra que limita simulações com valores iguais ou menores que R$ 1000</li>
+  <li>Bug em regra que limita simulações com valores iguais ou menores que R$ 1000
+      <img>src=https://github.com/paulorochacode/Testes-automatizados-BugReports-Prova-Tecnica-QA-Simulacao-de-Credito/blob/main/images/bugs/bug1-api-sicredi.png?raw=true</img></li>
  </ul>  
 </a>
+ 
+ 
 <!--
 <dt> titulo</dt>
   <dd> topico</dd>
