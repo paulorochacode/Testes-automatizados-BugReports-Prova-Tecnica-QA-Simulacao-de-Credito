@@ -1,7 +1,7 @@
 <h3>Bugs encontrados :<h3>
  
-<a>
- <ul>Valor da simulação que deve ser igual ou maior que R$ 1.000 e menor ou igual que R$ 40.000 :</br>
+<a>Valor da simulação que deve ser igual ou maior que R$ 1.000 e menor ou igual que R$ 40.000 :</br>
+ <ul>
   <li>Bug em regra que limita simulações com valores iguais ou menores que R$ 1000</li>
  </ul>  
 </a>
