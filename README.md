@@ -1,4 +1,4 @@
-<h1>Bugs encontrados :<h1>
+<h3>Bugs encontrados :</h3>
  
 <a>Valor da simulação que deve ser igual ou maior que R$ 1.000 e menor ou igual que R$ 40.000 :</br>
  <ul>
