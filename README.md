@@ -1,6 +1,5 @@
 <h3>
  <a href="https://github.com/paulorochacode/Prova-Tecnica-API-Rest-Java-Spring-Simulacao-de-Credito">Link para repositório da api</a>
- Link para repositório da api
 </h3>
 
 <h3>Bugs encontrados :</h3>
