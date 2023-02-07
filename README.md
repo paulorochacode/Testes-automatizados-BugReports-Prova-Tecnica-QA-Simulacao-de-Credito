@@ -6,7 +6,7 @@
  
 <a></br>
     <ul><h3>Bugs encontrados :</h3>
-        <li>Bug em regra que limita simulações com valores iguais ou menores que R$ 1000:</br>
+        <li>Bug em regra que limita simulações com valores iguais ou menores que R$ 1000</br>
         <img src=https://raw.githubusercontent.com/paulorochacode/Testes-automatizados-BugReports-Prova-Tecnica-QA-Simulacao-de-Credito/main/images/bugs/bug1-criar-simulacao-valor-minimo.png>
         </li>
    </ul>
