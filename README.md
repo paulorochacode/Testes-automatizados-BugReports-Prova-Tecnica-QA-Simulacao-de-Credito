@@ -40,7 +40,6 @@ Você pode trocar a porta da aplicação, caso a _8080_ já estiver em uso, adic
 
 Exemplo:
 
-```bash
 mvn clean spring-boot:run -Dserver.port=4444
 
 ## Como executar os testes automatizados
