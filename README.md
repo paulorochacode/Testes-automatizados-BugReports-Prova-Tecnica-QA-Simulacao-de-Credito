@@ -23,6 +23,32 @@
 
 <h3>Como rodar testes automatizados :</h3>
 
+##  Requisitos
+ * Java 8+ JDK deve estar instalado
+ * Maven deve estar instalado e configurado no path da aplicação
+ * IDE eclipse/ intellij
+
+## Como executar a API 
+
+Na raiz do projeto, através de seu Prompt de Commando/Terminal/Console execute o comando como administrador do sistema 
+
+mvn clean spring-boot:run -Dserver.port=8080
+
+A aplicação estará disponível através da URL [http://localhost:8080](http://localhost:8080)
+
+Você pode trocar a porta da aplicação, caso a _8080_ já estiver em uso, adicionando a propriedade JVM `server.port`.
+
+Exemplo:
+
+```bash
+mvn clean spring-boot:run -Dserver.port=4444
+
+## Como executar os testes automatizados
+
+abra o projeto em uma IDE de preferencia
+
+clique com direito e clique em executar todos os testes presentes na pasta com JUnit na seguinte pasta /src/test/JAVA
+
 
 <!--
 
