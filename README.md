@@ -31,12 +31,12 @@
 
 <h3>Como rodar testes automatizados :</h3>
 
-##  Requisitos
+<h4>Requisitos</h4>
  * Java 8+ JDK deve estar instalado
  * Maven deve estar instalado e configurado no path da aplicação
  * IDE eclipse/ intellij
 
-## Como executar a API 
+<h4>Como executar a API</h4>
 
 Na raiz do projeto, através de seu Prompt de Commando/Terminal/Console execute o comando como administrador do sistema 
 
@@ -50,7 +50,7 @@ Exemplo:
 
 mvn clean spring-boot:run -Dserver.port=4444
 
-## Como executar os testes automatizados
+<h4>Como executar os testes automatizados</h4>
 
 abra o projeto em uma IDE de preferencia
 
