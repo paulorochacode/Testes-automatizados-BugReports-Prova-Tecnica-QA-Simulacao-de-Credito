@@ -37,7 +37,7 @@ public class CPFsComRestricoesTest {
                 .get("v1/restricoes/"+ vars.cpfRestrito[0] )
                 .then()
                 .statusCode(200)
-                //.log().all();
+                .log().all()
                 .body("mensagem", containsString("O CPF "+ vars.cpfRestrito[0] + " tem problema"));
     }
 
