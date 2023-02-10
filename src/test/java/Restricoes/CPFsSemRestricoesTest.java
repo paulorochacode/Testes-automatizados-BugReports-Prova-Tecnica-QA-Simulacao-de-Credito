@@ -9,7 +9,7 @@ import static org.hamcrest.core.StringContains.containsString;
 
 public class CPFsSemRestricoesTest {
     static class vars{
-        static String[] cpfRestrito ={
+        static String[] cpfs ={
                 "57862379462",
                 "84723974628",
                 "74923874949",
@@ -36,7 +36,7 @@ public class CPFsSemRestricoesTest {
     @Test
     public void testConsultarRestricaoCPF0DeveRetornarStatusCode204() {
         given()
-                .get("v1/restricoes/"+ vars.cpfRestrito[0] )
+                .get("v1/restricoes/"+ vars.cpfs[0] )
                 .then()
                 .statusCode(204);
                 //.log().all();
@@ -45,7 +45,7 @@ public class CPFsSemRestricoesTest {
     @Test
     public void testConsultarRestricaoCPF1DeveRetornarStatusCode204() {
         given()
-                .get("v1/restricoes/"+ vars.cpfRestrito[1])
+                .get("v1/restricoes/"+ vars.cpfs[1])
                 .then()
                 .statusCode(204);
                 //.log().all();
@@ -54,7 +54,7 @@ public class CPFsSemRestricoesTest {
     @Test
     public void testConsultarRestricaoCPF2DeveRetornarStatusCode204() {
         given()
-                .get("v1/restricoes/"+ vars.cpfRestrito[2])
+                .get("v1/restricoes/"+ vars.cpfs[2])
                 .then()
                 .statusCode(204);
                 //.log().all();
@@ -63,7 +63,7 @@ public class CPFsSemRestricoesTest {
     @Test
     public void testConsultarRestricaoCPF3DeveRetornarStatusCode204() {
         given()
-                .get("v1/restricoes/"+ vars.cpfRestrito[3])
+                .get("v1/restricoes/"+ vars.cpfs[3])
                 .then()
                 .statusCode(204);
                 //.log().all();
@@ -72,7 +72,7 @@ public class CPFsSemRestricoesTest {
     @Test
     public void testConsultarRestricaoCPF4DeveRetornarStatusCode204() {
         given()
-                .get("v1/restricoes/"+ vars.cpfRestrito[4])
+                .get("v1/restricoes/"+ vars.cpfs[4])
                 .then()
                 .statusCode(204);
                 //.log().all();
@@ -81,7 +81,7 @@ public class CPFsSemRestricoesTest {
     @Test
     public void testConsultarRestricaoCPF5DeveRetornarStatusCode204() {
         given()
-                .get("v1/restricoes/"+ vars.cpfRestrito[5])
+                .get("v1/restricoes/"+ vars.cpfs[5])
                 .then()
                 .statusCode(204);
                 //.log().all();
@@ -91,7 +91,7 @@ public class CPFsSemRestricoesTest {
     @Test
     public void testConsultarRestricaoCPF6DeveRetornarStatusCode204() {
         given()
-                .get("v1/restricoes/"+ vars.cpfRestrito[6])
+                .get("v1/restricoes/"+ vars.cpfs[6])
                 .then()
                 .statusCode(204);
                 //.log().all();
@@ -100,7 +100,7 @@ public class CPFsSemRestricoesTest {
     @Test
     public void testConsultarRestricaoCPF7DeveRetornarStatusCode204() {
         given()
-                .get("v1/restricoes/"+ vars.cpfRestrito[7])
+                .get("v1/restricoes/"+ vars.cpfs[7])
                 .then()
                 .statusCode(204);
                 //.log().all();
@@ -109,7 +109,7 @@ public class CPFsSemRestricoesTest {
     @Test
     public void testConsultarRestricaoCPF8DeveRetornarStatusCode204() {
         given()
-                .get("v1/restricoes/"+ vars.cpfRestrito[8])
+                .get("v1/restricoes/"+ vars.cpfs[8])
                 .then()
                 .statusCode(204);
                 //.log().all();
@@ -118,7 +118,7 @@ public class CPFsSemRestricoesTest {
     @Test
     public void testConsultarRestricaoCPF9DeveRetornarStatusCode204() {
         given()
-                .get("v1/restricoes/"+ vars.cpfRestrito[9])
+                .get("v1/restricoes/"+ vars.cpfs[9])
                 .then()
                 .statusCode(204);
                 //.log().all();
