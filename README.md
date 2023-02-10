@@ -17,15 +17,12 @@
         </li>
    </ul>
     <ul>
-        <li>Inconsistencia com retorno real da api com documentação em restrições </li>
-        <li>(regra: Se possui restrição o HTTP Status 200 é retornado com a mensagem "O CPF 99999999999 possui restrição")</li>
-        <li>retorno : "O CPF 99999999999 tem problema"</li>
-        </li>
-        <img src=https://github.com/paulorochacode/Testes-automatizados-BugReports-Prova-Tecnica-QA-Simulacao-de-Credito/blob/main/images/bugs/inconsistencia1img1.png?raw=true>
-        </li>
-        </li>
-        <img src=https://github.com/paulorochacode/Testes-automatizados-BugReports-Prova-Tecnica-QA-Simulacao-de-Credito/blob/main/images/bugs/inconsistencia1img2
-.png?raw=true>
+        <li>
+        Inconsistencia com retorno real da api com documentação em restrições</br>
+        (regra: Se possui restrição o HTTP Status 200 é retornado com a mensagem "O CPF 99999999999 possui restrição")</br>
+        (retorno : "O CPF 99999999999 tem problema")</br>
+        <img src=https://github.com/paulorochacode/Testes-automatizados-BugReports-Prova-Tecnica-QA-Simulacao-de-Credito/blob/main/images/bugs/inconsistencia1img1.png?raw=true></br>
+        <img src=https://github.com/paulorochacode/Testes-automatizados-BugReports-Prova-Tecnica-QA-Simulacao-de-Credito/blob/main/images/bugs/inconsistencia1img2.png?raw=true></br>
         </li>
    </ul>
 </a>
