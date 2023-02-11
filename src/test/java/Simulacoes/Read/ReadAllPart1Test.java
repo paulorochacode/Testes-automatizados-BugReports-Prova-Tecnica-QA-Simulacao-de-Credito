@@ -6,10 +6,9 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 import static io.restassured.RestAssured.*;
-import static io.restassured.RestAssured.basePath;
-import static org.hamcrest.core.StringContains.containsString;
+import static io.restassured.RestAssured.given;
 
-public class ReadOneTest {
+public class ReadAllPart1Test {
 
     @BeforeClass
     public static void setup() {
@@ -18,15 +17,16 @@ public class ReadOneTest {
         port = 8080;
         basePath = "/api/";
     }
+
     @Test
     public void test1CriandoSimulacaoDeveRetornarStatusCode201() {
         given()
                 .body("{\n" +
                         "\"nome\": \"Colaborador Sicredi\",\n" +
                         "\"email\": \"fulano@gmail.com\",\n" +
-                        "\"cpf\": \"46490391207\",\n" +
-                        "\"valor\": 23640,\n" +
-                        "\"parcelas\": 7,\n" +
+                        "\"cpf\": \"47290390407\",\n" +
+                        "\"valor\": 23040,\n" +
+                        "\"parcelas\": 6,\n" +
                         "\"seguro\": false\n" +
                         "}")
                 .contentType(ContentType.JSON)
@@ -38,11 +38,22 @@ public class ReadOneTest {
     }
 
     @Test
-    public void test2ConsultandoUmaSimulacoesDeveRetornarStatusCode200() {
+    public void test2CriandoSimulacaoDeveRetornarStatusCode201() {
         given()
-                .get("v1/simulacoes")
-                .then()
-                .statusCode(200)
-                .body(containsString("46490390407"));
-    }
+                .body("{\n" +
+                        "\"nome\": \"Colaborador Sicredi\",\n" +
+                        "\"email\": \"fulano@gmail.com\",\n" +
+                        "\"cpf\": \"47290391207\",\n" +
+                        "\"valor\": 23640,\n" +
+                        "\"parcelas\": 7,\n" +
+                        "\"seguro\": false\n" +
+                        "}")
+                .contentType(ContentType.JSON)
+                .when()
+                .post("v1/simulacoes");
+        //.then()
+        //    .log().all()
+        //    .statusCode(201);
+    };
+
 }

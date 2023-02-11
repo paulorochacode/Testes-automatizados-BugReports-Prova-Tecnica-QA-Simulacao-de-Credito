@@ -38,6 +38,7 @@ public class CreateObrigatoriedadeTest {
 
     @Test
     public void test1CriandoSimulacaoDeveRetornarStatusCode400() {
+        //bug nr simulação sendo criada sem nome
         given()
                 .body("{\n" +
                         "\"nome\": \"\",\n" +
@@ -75,20 +76,21 @@ public class CreateObrigatoriedadeTest {
 
     @Test
     public void test3CriandoSimulacaoDeveRetornarStatusCode400() {
+        // bug nr, simulação sendo criada sem cpf
         given()
-                .body("{\n" +
-                        "\"nome\": \"Colaborador Sicredi\",\n" +
-                        "\"email\": \"fulano@gmail.com\",\n" +
-                        "\"cpf\": \"\",\n" +
-                        "\"valor\": 38000,\n" +
-                        "\"parcelas\": 3,\n" +
-                        "\"seguro\": true\n" +
-                        "}")
-                .contentType(ContentType.JSON)
-                .when()
-                .post("v1/simulacoes")
-                .then()
-                .statusCode(400);
+            .body("{\n" +
+                    "\"nome\": \"Colaborador Sicredi\",\n" +
+                    "\"email\": \"fulano@gmail.com\",\n" +
+                    "\"cpf\": \"\",\n" +
+                    "\"valor\": 38000,\n" +
+                    "\"parcelas\": 3,\n" +
+                    "\"seguro\": true\n" +
+                    "}")
+            .contentType(ContentType.JSON)
+        .when()
+            .post("v1/simulacoes")
+        .then()
+            .statusCode(400);
     }
     @Test
     public void test4CriandoSimulacaoDeveRetornarStatusCode400() {
@@ -178,19 +180,19 @@ public class CreateObrigatoriedadeTest {
     @Test
     public void test9CriandoSimulacaoDeveRetornarStatusCode400() {
         given()
-                .body("{\n" +
-                        "\"nome\": \"Colaborador Sicredi\",\n" +
-                        "\"email\": \"fulano@gmail.com\",\n" +
-                        "\"cpf\":" + vars.cpfs[7] + ",\n" +
-                        "\"valor\": 38000,\n" +
-                        "\"parcelas\": 3,\n" +
-                        "\"seguro\": true\n" +
-                        "}")
-                .contentType(ContentType.JSON)
-                .when()
-                .post("v1/simulacoes")
-                .then()
-                .statusCode(400);
+            .body("{\n" +
+                    "\"nome\": \"Colaborador Sicredi\",\n" +
+                    "\"email\": \"fulano@gmail.com\",\n" +
+                    "\"\":" + vars.cpfs[7] + ",\n" +
+                    "\"valor\": 38000,\n" +
+                    "\"parcelas\": 3,\n" +
+                    "\"seguro\": true\n" +
+                    "}")
+            .contentType(ContentType.JSON)
+        .when()
+            .post("v1/simulacoes")
+        .then()
+            .statusCode(400);
     }
     @Test
     public void test10CriandoSimulacaoDeveRetornarStatusCode400() {
@@ -228,20 +230,21 @@ public class CreateObrigatoriedadeTest {
     }
     @Test
     public void test12CriandoSimulacaoDeveRetornarStatusCode400() {
+        //bug nr resposta 500 inves de 400
         given()
                 .body("{\n" +
-                        "\"nome\": \"Colaborador Sicredi\",\n" +
-                        "\"email\": \"fulano@gmail.com\",\n" +
-                        "\"cpf\":" + vars.cpfs[10] + ",\n" +
-                        "\"valor\": 38000,\n" +
-                        "\"parcelas\": 3,\n" +
-                        "\"\": true\n" +
-                        "}")
-                .contentType(ContentType.JSON)
-                .when()
-                .post("v1/simulacoes")
-                .then()
-                .statusCode(400);
+                    "\"nome\": \"Colaborador Sicredi\",\n" +
+                    "\"email\": \"fulano@gmail.com\",\n" +
+                    "\"cpf\":" + vars.cpfs[10] + ",\n" +
+                    "\"valor\": 38000,\n" +
+                    "\"parcelas\": 3,\n" +
+                    "\"\": true\n" +
+                    "}")
+            .contentType(ContentType.JSON)
+        .when()
+            .post("v1/simulacoes")
+        .then()
+            .statusCode(400);
     }
     @Test
     public void test13CriandoSimulacaoDeveRetornarStatusCode400() {
@@ -345,5 +348,4 @@ public class CreateObrigatoriedadeTest {
                 .then()
                 .statusCode(400);
     }
-
 }
