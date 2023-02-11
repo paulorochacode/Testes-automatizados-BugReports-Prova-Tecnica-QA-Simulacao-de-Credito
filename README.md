@@ -44,12 +44,6 @@ mvn clean spring-boot:run -Dserver.port=8080
 
 A aplicação estará disponível através da URL [http://localhost:8080](http://localhost:8080)
 
-Você pode trocar a porta da aplicação, caso a _8080_ já estiver em uso, adicionando a propriedade JVM `server.port`.
-
-Exemplo:
-
-mvn clean spring-boot:run -Dserver.port=4444
-
 <h4>Como executar os testes automatizados</h4>
 
 abra o projeto em uma IDE de preferencia

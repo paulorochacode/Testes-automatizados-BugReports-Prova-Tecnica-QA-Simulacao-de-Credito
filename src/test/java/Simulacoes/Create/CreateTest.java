@@ -330,13 +330,5 @@ public class CreateTest {
                 .statusCode(400)
                 .body(containsString("CPF duplicado"));
         }
-        @Test
-        public void testReset1CriandoSimulacoes() {
-            given()
-            .when()
-                .delete("v1/simulacoes/1")
-            .then()
-                .log().all();
-        }
 
 }
