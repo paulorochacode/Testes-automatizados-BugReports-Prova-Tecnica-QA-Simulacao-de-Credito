@@ -26,9 +26,9 @@
         </li>
    </ul>
 </a>
-
+<!--
 <h3>Testes Executados :</h3>
-
+ -->
 <h3>Como rodar testes automatizados :</h3>
 
 <h4>Requisitos</h4>
@@ -40,7 +40,9 @@
 
 Na raiz do projeto, através de seu Prompt de Commando/Terminal/Console execute o comando como administrador do sistema 
 
+```bash
 mvn clean spring-boot:run -Dserver.port=8080
+```
 
 A aplicação estará disponível através da URL [http://localhost:8080](http://localhost:8080)
 
@@ -51,6 +53,3 @@ abra o projeto em uma IDE de preferencia
 clique com direito e clique em executar todos os testes presentes na pasta com JUnit na seguinte pasta /src/test/JAVA
 
 
-<!--
-
- -->
