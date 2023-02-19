@@ -25,12 +25,6 @@
         <li>bug em regra de negócio em número de parcelas para pagamento que deve ser menor ou igual a 48</br>
         <img src=>
         </li>
-        <li>bug em campo nome sendo aceito com numeros e simbolos ao criar simulação</br>
-        <img src=>
-        </li>
-        <li>bug em campo nome sendo aceito com numeros e simbolos ao criar simulação</br>
-        <img src=>
-        </li>
    </ul>
    <ul>
         <li>Bug em tipagem que permite criar simulações com mais ou menos casas do que se deveriam</br>
