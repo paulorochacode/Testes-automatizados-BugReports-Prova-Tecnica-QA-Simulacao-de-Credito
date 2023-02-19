@@ -1,8 +1,5 @@
 package Simulacoes.Create;
 
-import Restricoes.CPFsComRestricoesTest;
-import Simulacoes.Create.CreateObrigatoriedadeTest;
-import br.com.sicredi.simulacao.entity.Simulacao;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import org.junit.BeforeClass;
@@ -11,13 +8,12 @@ import org.junit.Test;
 import static io.restassured.RestAssured.*;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.core.StringContains.containsString;
-import static org.springframework.data.jpa.domain.AbstractPersistable_.id;
 
 
 public class CreateTest {
         static class vars{
             static String[] cpfs ={
-                    "\"57862379462\"",
+                    "\"57843422462\"",
                     "\"847.239.746-28\"",
                     "\"74923874949\"",
                     "\"59438759405\"",
@@ -50,7 +46,7 @@ public class CreateTest {
 
         @Test
         public void test1CriandoSimulacaoDeveRetornarStatusCode201() {
-            //buga nr, não retorna
+            //buga nr, não retorna msg "Simulação criada com sucesso"
             given()
                 .body("{\n" +
                         "\"nome\": \"Colaborador Sicredi\",\n" +
@@ -85,7 +81,6 @@ public class CreateTest {
             .when()
                 .post("v1/simulacoes")
             .then()
-                .log().all()
                 .statusCode(400);
         }
 
@@ -105,7 +100,6 @@ public class CreateTest {
                     .when()
                     .post("v1/simulacoes")
                     .then()
-                    .log().all()
                     .statusCode(400);
         }
         @Test
@@ -148,7 +142,7 @@ public class CreateTest {
         }
         @Test
         public void test6CriandoSimulacaoDeveRetornarStatusCode400() {
-            //bug nr, em regra de negócio campo numero de parcela
+            //bug r, em regra de negócio campo numero de parcela
             given()
                 .body("{\n" +
                         "\"nome\": \"Augusto Sousa\",\n" +

@@ -8,6 +8,7 @@ import static io.restassured.RestAssured.*;
 import static org.hamcrest.core.StringContains.containsString;
 
 public class ObrigatoriedadeTest {
+    
     static class vars{
         static String[] cpf ={""};
     }

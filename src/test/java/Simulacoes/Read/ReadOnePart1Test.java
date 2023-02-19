@@ -6,7 +6,6 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 import static io.restassured.RestAssured.*;
-import static org.hamcrest.core.StringContains.containsString;
 
 public class ReadOnePart1Test {
 

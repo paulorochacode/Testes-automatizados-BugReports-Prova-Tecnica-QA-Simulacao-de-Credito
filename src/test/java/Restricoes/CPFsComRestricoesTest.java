@@ -3,11 +3,12 @@ package Restricoes;
 import org.junit.Test;
 import io.restassured.RestAssured;
 import org.junit.BeforeClass;
-import org.junit.Test;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.core.StringContains.containsString;
+
 public class CPFsComRestricoesTest {
+
     static class vars{
         static String[] cpfRestrito ={  "97093236014",
                 "60094146012",

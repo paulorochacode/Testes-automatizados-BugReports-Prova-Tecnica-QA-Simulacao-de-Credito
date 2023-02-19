@@ -6,8 +6,30 @@
  
 <a></br>
     <ul><h3>Bugs encontrados :</h3>
-        <li>Bug em regra que limita simulações com valores iguais ou menores que R$ 1000</br>
+        <li>Bug em regra de negócio que limita simulações com valores iguais ou menores que R$ 1000</br>
         <img src=https://raw.githubusercontent.com/paulorochacode/Testes-automatizados-BugReports-Prova-Tecnica-QA-Simulacao-de-Credito/main/images/bugs/bug1-criar-simulacao-valor-minimo.png>
+        </li>
+        <li>Bug em regra de negócio que determina campo CPF como obrigatório ao criar simulação</br>
+        <img src=>
+        </li>
+        <li>Bug em regra de negócio que determina campo Nome como obrigatório ao criar simulação</br>
+        <img src=>
+        </li>
+        </li>
+        <li>retorno de status code em falta de parametro "seguro" retorna 500 ao inves de 400</br>
+        <img src=>
+        </li>
+        <li>Simulação criada com sucesso não retorna mensagem "Simulação criada com sucesso"</br>
+        <img src=>
+        </li>
+        <li>bug em regra de negócio em número de parcelas para pagamento que deve ser menor ou igual a 48</br>
+        <img src=>
+        </li>
+        <li>bug em campo nome sendo aceito com numeros e simbolos ao criar simulação</br>
+        <img src=>
+        </li>
+        <li>bug em campo nome sendo aceito com numeros e simbolos ao criar simulação</br>
+        <img src=>
         </li>
    </ul>
    <ul>
@@ -44,7 +66,7 @@ Na raiz do projeto, através de seu Prompt de Commando/Terminal/Console execute 
 mvn clean spring-boot:run -Dserver.port=8080
 ```
 
-A aplicação estará disponível através da URL [http://localhost:8080](http://localhost:8080)
+A aplicação estará disponível através da URL [http://localhost:8080](http://localhost:8080) 
 
 <h4>Como executar os testes automatizados</h4>
 

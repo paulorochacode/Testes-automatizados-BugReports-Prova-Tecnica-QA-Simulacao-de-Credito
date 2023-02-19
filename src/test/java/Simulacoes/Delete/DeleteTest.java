@@ -1,9 +1,5 @@
 package Simulacoes.Delete;
 
-import Restricoes.CPFsComRestricoesTest;
-import Simulacoes.Create.CreateObrigatoriedadeTest;
-import Simulacoes.Create.CreateTest;
-import br.com.sicredi.simulacao.entity.Simulacao;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import org.junit.BeforeClass;
@@ -12,7 +8,7 @@ import org.junit.Test;
 import static io.restassured.RestAssured.*;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.core.StringContains.containsString;
-import static org.springframework.data.jpa.domain.AbstractPersistable_.id;
+
 public class DeleteTest {
 
     @BeforeClass
