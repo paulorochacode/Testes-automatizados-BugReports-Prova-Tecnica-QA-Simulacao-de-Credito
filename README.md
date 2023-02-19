@@ -10,20 +10,20 @@
         <img src=https://raw.githubusercontent.com/paulorochacode/Testes-automatizados-BugReports-Prova-Tecnica-QA-Simulacao-de-Credito/main/images/bugs/bug1-criar-simulacao-valor-minimo.png>
         </li>
         <li>Bug em regra de negócio que determina campo CPF como obrigatório ao criar simulação</br>
-        <img src=>
+        <img src=https://raw.githubusercontent.com/paulorochacode/Testes-automatizados-BugReports-Prova-Tecnica-QA-Simulacao-de-Credito/main/images/bugs/simulação-sendo-criada-sem-cpf.png>
         </li>
         <li>Bug em regra de negócio que determina campo Nome como obrigatório ao criar simulação</br>
-        <img src=>
+        <img src=https://raw.githubusercontent.com/paulorochacode/Testes-automatizados-BugReports-Prova-Tecnica-QA-Simulacao-de-Credito/main/images/bugs/simulação-sendo-criada-sem-nome.png>
         </li>
         </li>
         <li>retorno de status code em falta de parametro "seguro" retorna 500 ao inves de 400</br>
-        <img src=>
+        <img src=https://raw.githubusercontent.com/paulorochacode/Testes-automatizados-BugReports-Prova-Tecnica-QA-Simulacao-de-Credito/main/images/bugs/resposta-500-inves-400.png>
         </li>
         <li>Simulação criada com sucesso não retorna mensagem "Simulação criada com sucesso"</br>
-        <img src=>
+        <img src=https://raw.githubusercontent.com/paulorochacode/Testes-automatizados-BugReports-Prova-Tecnica-QA-Simulacao-de-Credito/main/images/bugs/não-retorna-msg-"Simulação-criada-com-sucesso".png>
         </li>
         <li>bug em regra de negócio em número de parcelas para pagamento que deve ser menor ou igual a 48</br>
-        <img src=>
+        <img src=https://raw.githubusercontent.com/paulorochacode/Testes-automatizados-BugReports-Prova-Tecnica-QA-Simulacao-de-Credito/main/images/bugs/em-regra-de-negocio-campo-numero-de-parcelas.png>
         </li>
    </ul>
    <ul>

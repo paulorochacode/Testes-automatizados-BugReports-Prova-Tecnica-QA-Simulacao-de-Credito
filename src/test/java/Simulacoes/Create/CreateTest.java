@@ -199,7 +199,7 @@ public class CreateTest {
 
         @Test
         public void test10CriandoSimulacaoDeveRetornarStatusCode400() {
-        //bug nr, bug em campo nome sendo aceito com numeros e simbolos
+        //bug r, bug em campo nome sendo aceito com numeros e simbolos
             given()
                 .body("{\n" +
                             "\"nome\": \"123456#$%&*\",\n" +

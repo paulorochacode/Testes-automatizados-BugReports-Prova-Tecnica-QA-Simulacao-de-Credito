@@ -38,7 +38,7 @@ public class CreateObrigatoriedadeTest {
 
     @Test
     public void test1CriandoSimulacaoDeveRetornarStatusCode400() {
-        //bug nr simulação sendo criada sem nome
+        //bug r simulação sendo criada sem nome
         given()
                 .body("{\n" +
                         "\"nome\": \"\",\n" +
@@ -76,7 +76,7 @@ public class CreateObrigatoriedadeTest {
 
     @Test
     public void test3CriandoSimulacaoDeveRetornarStatusCode400() {
-        // bug nr, simulação sendo criada sem cpf
+        // bug r, simulação sendo criada sem cpf
         given()
             .body("{\n" +
                     "\"nome\": \"Colaborador Sicredi\",\n" +
@@ -230,7 +230,7 @@ public class CreateObrigatoriedadeTest {
     }
     @Test
     public void test12CriandoSimulacaoDeveRetornarStatusCode400() {
-        //bug nr resposta 500 inves de 400
+        //bug r resposta 500 inves de 400
         given()
                 .body("{\n" +
                     "\"nome\": \"Colaborador Sicredi\",\n" +
