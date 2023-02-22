@@ -20,7 +20,7 @@
         <img src=https://raw.githubusercontent.com/paulorochacode/Testes-automatizados-BugReports-Prova-Tecnica-QA-Simulacao-de-Credito/main/images/bugs/resposta-500-inves-400.png>
         </li>
         <li>Simulação criada com sucesso não retorna mensagem "Simulação criada com sucesso"</br>
-        <img src=https://raw.githubusercontent.com/paulorochacode/Testes-automatizados-BugReports-Prova-Tecnica-QA-Simulacao-de-Credito/main/images/bugs/não-retorna-msg-"Simulação-criada-com-sucesso".png>
+        <img src=https://raw.githubusercontent.com/paulorochacode/Testes-automatizados-BugReports-Prova-Tecnica-QA-Simulacao-de-Credito/main/images/bugs/nao-retorna-mensagem-Simulacao-criada-com-sucesso.png>
         </li>
         <li>bug em regra de negócio em número de parcelas para pagamento que deve ser menor ou igual a 48</br>
         <img src=https://raw.githubusercontent.com/paulorochacode/Testes-automatizados-BugReports-Prova-Tecnica-QA-Simulacao-de-Credito/main/images/bugs/em-regra-de-negocio-campo-numero-de-parcelas.png>
